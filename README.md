@@ -5,7 +5,8 @@
 
 #### We can hide anything, even code!
 
-```const [apiData, setApiData] = useState();
+```
+  const [apiData, setApiData] = useState();
   console.log('apiData', apiData);
 
   const getApi = async () => {
