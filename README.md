@@ -1,8 +1,8 @@
 # Javascript Cheat Sheet
 
 <details><summary>Fetch Api</summary>
-<p>
-```react
+## Fetch Api
+```
   const [apiData, setApiData] = useState();
   console.log('apiData', apiData);
 
