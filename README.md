@@ -1,8 +1,7 @@
 # Javascript Cheat Sheet
 
-<details><summary>FETCH API</summary>
-
-#### Fetch Api
+## FETCH API
+<details><summary>Fetch Api</summary>
 
 ```javascript
   const [apiData, setApiData] = useState();
