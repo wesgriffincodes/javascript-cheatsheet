@@ -2,10 +2,7 @@
 
 <details><summary>Fetch Api</summary>
 <p>
-
-#### We can hide anything, even code!
-
-```
+```react
   const [apiData, setApiData] = useState();
   console.log('apiData', apiData);
 
