@@ -1,11 +1,11 @@
 # Javascript Cheat Sheet
 
-<details><summary>Fetch APi</summary>
+<details><summary>FETCH API</summary>
 
 #### Fetch Api
 
 ```javascript
-   const [apiData, setApiData] = useState();
+  const [apiData, setApiData] = useState();
   console.log('apiData', apiData);
 
   const getApi = async () => {
