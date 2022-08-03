@@ -119,3 +119,18 @@
 ```
 </details>
 
+<details><summary>.reduce()</summary>
+
+<p>.reduce() reduces array down using accumulator and initial value</p>
+<p>sum of all numbers in an array</p>
+
+```javascript
+  const numbers = [1,2,3,4,5,6];
+
+  const sum = numbers.reduce((accumulator, value) => {
+    return accumulator + value;
+  }, 0)
+```
+</details>
+
+
