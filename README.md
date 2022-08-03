@@ -24,7 +24,7 @@
 ## ARRAY METHODS
 <details><summary>.map()</summary>
 
-<p>.map() createa a new array off of one</p>
+<p>.map() creates a new array off of one</p>
 <p>double every number in an array</p>
 
 ```javascript
@@ -34,12 +34,38 @@
 <p>use to create syntax</p>
 
 ```javascript
-  const todosMApped = todos.map((todo, index) => (
+  const todosMapped = todos.map((todo, index) => (
             <div className='todo' key={index}>
               <li>{todo}</li>
               <button className='todo-button' onClick={() => removeTodoFilter(todo)}>x</button>
             </div>
           ))
+```
+</details>
+
+<details><summary>.forEach()</summary>
+
+<p>.forEach() creates a loop through every index of the array</p>
+<p>sum of all numbers in an array</p>
+
+```javascript
+  let sum = 0;
+  numbers.forEach(number => {
+    sum = sum + number;
+  });
+  console.log('sum', sum);
+```
+<p>-or-</p>
+
+```javascript
+  const getsum = (numbers) => {
+    let sum = 0;
+    numbers.forEach(number => {
+      sum += number;
+    });
+    return sum;
+  }
+  console.log('summed', getsum(numbers))
 ```
 </details>
 
