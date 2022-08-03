@@ -69,3 +69,36 @@
 ```
 </details>
 
+<details><summary>.filter()</summary>
+
+<p>.filter() creates a new array with filtered out objects/index</p>
+<p>filter out all even numbers</p>
+
+```javascript
+  const numbers = [1,2,3,4,5,6];
+
+  const even = numbers.filter(number => number % 2 === 0);
+```
+
+<p>filter out people over 18</p>
+
+```javascript
+  const people = [
+      {
+          name: 'john',
+          age: 38
+      },
+      {
+          name: 'naghmeh',
+          age: 33
+      },
+      {
+          name: 'Donny',
+          age: 16
+      }
+  ];
+
+  const adults = people.filter(person => person.age >= 18);
+```
+</details>
+
