@@ -131,7 +131,7 @@
     return accumulator + value;
   }, 0)
 
-  console.log('sum', sum);
+  //sum = 21
 ```
 </details>
 
