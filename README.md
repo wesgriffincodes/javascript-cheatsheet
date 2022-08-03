@@ -100,5 +100,22 @@
 
   const adults = people.filter(person => person.age >= 18);
 ```
+
+<p>filter out duplicate w/o Set</p>
+
+```javascript
+  const numbers = [1,2,3,4,5,6,5,4,3];
+  
+  const noDuplicates = numbers.filter((value, index) => {
+    return numbers.indexOf(value) === index;
+  });
+```
+<p>filter out duplicate using Set</p>
+
+```javascript
+  const numbers = [1,2,3,4,5,6,5,4,3];
+  
+  const noDuplicateNumbers = [...new Set(numbers)];
+```
 </details>
 
