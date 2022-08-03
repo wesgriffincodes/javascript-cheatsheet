@@ -130,6 +130,8 @@
   const sum = numbers.reduce((accumulator, value) => {
     return accumulator + value;
   }, 0)
+
+  console.log('sum', sum);
 ```
 </details>
 
