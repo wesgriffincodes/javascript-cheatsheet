@@ -164,6 +164,32 @@
 ```
 </details>
 
+<details><summary>.some()</summary>
+
+<p>.some() looks to find if some in an array true/false of statement asked</p>
+
+```javascript
+  const numbers = [1,2,3,4,5,6];
+
+  const threeExist = numbers.some(numnber => number === 3)
+
+  //result = true
+```
+</details>
+
+<details><summary>.every()</summary>
+
+<p>.every() looks to find if every in an array true/false of statement asked</p>
+
+```javascript
+  const numbers = [4,5,6];
+
+  const greaterThanFour = numbers.every(numnber => number > 3)
+
+  //result = true
+```
+</details>
+
 ## FOR LOOPS
 <details><summary>For loop</summary>
 <p>regular for loop set up</p>
