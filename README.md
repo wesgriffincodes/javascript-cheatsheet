@@ -210,3 +210,43 @@
   }
 ```
 </details>
+
+## PUSH, POP, SHIFT, UNSHIFT
+<details><summary>Manipulating Arrays</summary>
+<p>Push - adds to end of array</p>
+
+```javascript
+  const numbers = [1,2,3,4,5];
+
+  numbers.push(6);
+
+  // adds 6 to end of array
+```
+<p>Pop - removes last item in array</p>
+
+```javascript
+  const numbers = [1,2,3,4,5];
+
+  numbers.pop();
+
+  // removes 5 to end of array
+```
+<p>unshift - adds item to beginning of array</p>
+
+```javascript
+  const numbers = [1,2,3,4,5];
+
+  numbers.unshift(7);
+
+  // adds 7 to beginning of array
+```
+<p>shift - removes item from beginning of array</p>
+
+```javascript
+  const numbers = [1,2,3,4,5];
+
+  numbers.shift();
+
+  // removes 1 from beginning of array
+```
+</details>
