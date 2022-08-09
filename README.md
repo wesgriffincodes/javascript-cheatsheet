@@ -250,3 +250,23 @@
   // removes 1 from beginning of array
 ```
 </details>
+<details><summary>.splice()</summary>
+
+<p>.splice() adds and or removes items in an array</p>
+<p>.splice(0,0,0) first is the position, second is amount top remove, third is what to add to array</p>
+
+```javascript
+  const numbers = [1,2,3,4,5,6];
+
+  numbers.splice(2,2)
+
+  //at position 2 remove two items
+```
+```javascript
+  const numbers = [1,2,3,4,5,6];
+
+  numbers.splice(2,0, 9,10)
+
+  //after position 2 remove no items, but add 9 and 10 to the array at that point
+```
+</details>
