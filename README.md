@@ -151,6 +151,19 @@
 ```
 </details>
 
+<details><summary>.includes()</summary>
+
+<p>.includes() looks to find true/false of statement asked</p>
+
+```javascript
+  const numbers = [1,2,3,4,5,6];
+
+  const threeExist = numbers.includes(3)
+
+  //result = true
+```
+</details>
+
 ## FOR LOOPS
 <details><summary>For loop</summary>
 <p>regular for loop set up</p>
