@@ -133,6 +133,41 @@
 
   //sum = 21
 ```
+
+<p>return biggest number</p>
+
+```javascript
+  const numbers = [1,2,3,4,5,6];
+
+  const max = numbers.reduce((accumulator, value) => {
+    if (accumulator > value) {
+      return accumulator;
+    } else {
+      return value;
+    }
+  });
+
+  //max = 6
+```
 </details>
 
+## FOR LOOPS
+<details><summary>For loop</summary>
+<p>regular for loop set up</p>
 
+```javascript
+  let array = [];
+  for(let i = 0; i < 5; i++) {
+    array.push(i)
+  }
+```
+
+<p>looping through existing array</p>
+
+```javascript
+  let array = [1,2,3,4,5];
+  for(let i = 0; i < array.length; i++) {
+    console.log(array[i]);
+  }
+```
+</details>
