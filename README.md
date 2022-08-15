@@ -119,6 +119,28 @@
 ```
 </details>
 
+<details><summary>.sort()</summary>
+
+<p>.sort() will sort the array how ever you tell it to</p>
+<p>sort array by alphabetical order</p>
+
+```javascript
+  const months = ['March', 'Jan', 'Feb', 'Dec'];
+
+  const sorted = months.sort();
+
+  //sorted = ["Dec", "Feb", "Jan", "March"]
+```
+<p>sort array of numbers smallest to largest</p>
+
+```javascript
+  const array = [5,3,7,21,9,2,8];
+
+  const sorted = array.sort((a,b) => a - b);
+
+  //sorted = [2, 3, 5, 7, 8, 9, 21]
+```
+</details>
 <details><summary>.reduce()</summary>
 
 <p>.reduce() reduces array down using accumulator and initial value</p>
@@ -261,6 +283,26 @@
   numbers.splice(2,2)
 
   //at position 2 remove two items
+```
+```javascript
+  const numbers = [1,2,3,4,5,6];
+
+  numbers.splice(2,0, 9,10)
+
+  //after position 2 remove no items, but add 9 and 10 to the array at that point
+```
+</details>
+<details><summary>.slice()</summary>
+
+<p>.slice() returns new array of selected items in an array</p>
+<p>.slice(0,0) first is the position to start, second is position to stop the slice</p>
+
+```javascript
+  const numbers = [1,2,3,4,5,6];
+
+  const newArray = numbers.slice(2,4)
+
+  //newArray = [3,4]
 ```
 ```javascript
   const numbers = [1,2,3,4,5,6];
